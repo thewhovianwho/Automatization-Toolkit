@@ -15,3 +15,18 @@ To run this script:
 For example, for the current folder:
 
 ``` python countFastaAminoAcid.py .```
+
+# Measure binding site and prepare reference file for Autodock4. 
+
+This script computes the minimum, maximum and center vectors for a selection, increments it according to your needs and convers the values from a spacing of 1A to a spacing of 0.375A. 
+
+Use this script in VMD's Tk Console. 
+
+After sourcing the script/pasting the process in the Tk Console, you can use it as such:
+
+```get_cell moleculeID increment selection```
+
+For example:
+
+```get_cell 0 2 "resid 22 or resid 23"```
+

@@ -1,4 +1,4 @@
-# Utils
+# Automatization Toolkit
 This repository contains scripts I've written that help me parse various file formats. 
 
 # Count residues from single/multiple-sequence FASTA file.
